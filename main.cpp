@@ -15,7 +15,6 @@ int main()
 
     while ((getline(in,line))){
         out << line << endl;
-        cout << line;
     }
     in.close();
     out.close();
